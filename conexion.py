@@ -8,7 +8,7 @@ def query_conexion(consulta, parametros=()):
                 cursor = conexion.cursor()
                 resultado = cursor.execute(consulta, parametros) #  Establece la consulta sql a realizar y sus parametros
                 conexion.commit()
-                conexion.close()
+                
                 return resultado
 
             except Exception as e:
