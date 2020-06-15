@@ -1,0 +1,15 @@
+python 2.5 > 
+
+sqlitebrowser 
+
+https://sqlitebrowser.org/
+
+_____ CREAR BASE DE DATOS _____
+
+
+Con sqlitebrowser crear una base de datos con 
+una tabla llamada persona  y que tenga atributos
+
+    -ID 
+    -Nombre
+    -Edad gi
